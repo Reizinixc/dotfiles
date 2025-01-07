@@ -1,0 +1,255 @@
+# this file is for custom filters that shouldn't be a part of the global autohosts repository
+# although i may want to block accounts.google.com from those sneaky sso redirects, i realize not everyone does.
+# to add a filter, simply append a newline in similar fashion to the existing custom filters
+# to disable or remove a filter, add a # to the line prefix; vice-versa to enable
+
+### Google
+#0.0.0.0 accounts.google.com
+0.0.0.0 chromestatus.com
+0.0.0.0 fonts.gstatic.com
+0.0.0.0 graph.facebook.com
+0.0.0.0 ads.linkedin.com
+0.0.0.0 bidswitch.net
+0.0.0.0 rlcdn.com
+0.0.0.0 zapier.com
+0.0.0.0 swiftype.com
+0.0.0.0 domains.googlesyndication.com
+0.0.0.0 video-stats.video.google.com
+0.0.0.0 4.afs.googleadservices.com
+0.0.0.0 pagead2.googleadservices.com
+0.0.0.0 partner.googleadservices.com
+0.0.0.0 www.googleadservices.com
+0.0.0.0 apps5.oingo.com
+0.0.0.0 www.appliedsemantics.com
+0.0.0.0 service.urchin.com
+0.0.0.0 pagead2.googlesyndication.com
+0.0.0.0 googlesyndication.com
+0.0.0.0 ads.googlesyndication.com
+0.0.0.0 www.googlesyndication.com
+0.0.0.0 adwords.google.com
+0.0.0.0 googleanalytics.com
+0.0.0.0 ssl.googleanalytics.com
+0.0.0.0 www.googleanalytics.com
+0.0.0.0 google-analytics.com
+0.0.0.0 .google-analytics.com
+0.0.0.0 ssl.google-analytics.com
+0.0.0.0 www.google-analytics.com
+0.0.0.0 www.googletagservices.com
+0.0.0.0 ssl.googletagservices.com
+0.0.0.0 .googletagservices.com
+0.0.0.0 googletagservices.com
+0.0.0.0 www.gstatic.com
+0.0.0.0 csi.gstatic.com
+0.0.0.0 doubleclick.com
+0.0.0.0 .doubleclick.com
+0.0.0.0 gan.doubleclick.net
+0.0.0.0 doubleclick.net
+0.0.0.0 .doubleclick.net
+0.0.0.0 ad.doubleclick.net
+0.0.0.0 ad-g.doubleclick.net
+0.0.0.0 googleads.g.doubleclick.net
+0.0.0.0 ad.ie.doubleclick.net
+0.0.0.0 static.doubleclick.net
+0.0.0.0 partner.googleadservices.com
+0.0.0.0 ssl.gstatic.com
+0.0.0.0 clients.google.com
+0.0.0.0 clients1.google.com
+0.0.0.0 clients2.google.com
+0.0.0.0 clients3.google.com
+0.0.0.0 clients4.google.com
+0.0.0.0 clients5.google.com
+0.0.0.0 clients6.google.com
+0.0.0.0 clients7.google.com
+0.0.0.0 clients8.google.com
+0.0.0.0 clients9.google.com
+0.0.0.0 clients0.google.com
+0.0.0.0 sassets.vevo.com   #} some Youtube-related ad servers
+0.0.0.0 2975c.v.fwmrm.net  #}
+0.0.0.0 m.v.fwmrm.net      #}
+0.0.0.0 .fwmrm.net         #}
+0.0.0.0 ytimg.googleusercontent.com # needless Youtube-related graphic clutter
+0.0.0.0 html5shiv.googlecode.com
+0.0.0.0 b3.caspio.com
+0.0.0.0 ajax.microsoft.com
+0.0.0.0 buttons.googlesyndication.com
+0.0.0.0 googleusercontent.com
+0.0.0.0 lh0.googleusercontent.com
+0.0.0.0 lh1.googleusercontent.com
+0.0.0.0 lh2.googleusercontent.com
+0.0.0.0 lh3.googleusercontent.com
+0.0.0.0 lh4.googleusercontent.com
+0.0.0.0 lh5.googleusercontent.com
+0.0.0.0 lh6.googleusercontent.com
+0.0.0.0 lh7.googleusercontent.com
+0.0.0.0 lh8.googleusercontent.com
+0.0.0.0 lh9.googleusercontent.com
+0.0.0.0 s.googleusercontent.com
+0.0.0.0 s0.googleusercontent.com
+0.0.0.0 s1.googleusercontent.com
+0.0.0.0 s2.googleusercontent.com
+0.0.0.0 s3.googleusercontent.com
+0.0.0.0 s4.googleusercontent.com
+0.0.0.0 s5.googleusercontent.com
+0.0.0.0 s6.googleusercontent.com
+0.0.0.0 s7.googleusercontent.com
+0.0.0.0 s8.googleusercontent.com
+0.0.0.0 s9.googleusercontent.com
+#0.0.0.0 chrome.google.com
+#0.0.0.0 fonts.googleapis.com
+0.0.0.0 checkout.google.com
+0.0.0.0 .ggpht.com
+0.0.0.0 lh1.ggpht.com
+0.0.0.0 lh2.ggpht.com
+0.0.0.0 lh3.ggpht.com
+0.0.0.0 lh4.ggpht.com
+0.0.0.0 lh5.ggpht.com
+0.0.0.0 lh6.ggpht.com
+0.0.0.0 gp1.googleusercontent.com
+0.0.0.0 gp2.googleusercontent.com
+0.0.0.0 gp3.googleusercontent.com
+0.0.0.0 gp4.googleusercontent.com
+0.0.0.0 gp5.googleusercontent.com
+0.0.0.0 gp6.googleusercontent.com
+0.0.0.0 gp7.googleusercontent.com
+0.0.0.0 chart.apis.google.com
+
+#crap from Doubleclick - mostly ad/spyware servers
+0.0.0.0 conversion-pixel.invitemedia.com
+0.0.0.0 analytics-api-samples.googlecode.com
+0.0.0.0 m1.2mdn.net
+0.0.0.0 rmcdn.2mdn.net
+0.0.0.0 rmcdn.f.2mdn.net
+0.0.0.0 n339.asp-cc.com
+0.0.0.0 ads.cc-dt.com
+0.0.0.0 clickserve.cc-dt.com
+0.0.0.0 creative.cc-dt.com
+0.0.0.0 clickserve.dartsearch.net
+0.0.0.0 clickserve.eu.dartsearch.net
+0.0.0.0 clickserve.uk.dartsearch.net
+0.0.0.0 doubleclick.net
+0.0.0.0 ad.doubleclick.net
+0.0.0.0 ad-g.doubleclick.net
+0.0.0.0 ad2.doubleclick.net
+0.0.0.0 ad.ae.doubleclick.net
+0.0.0.0 ad.ar.doubleclick.net
+0.0.0.0 ad.at.doubleclick.net
+0.0.0.0 ad.au.doubleclick.net
+0.0.0.0 ad.be.doubleclick.net
+0.0.0.0 ad.br.doubleclick.net
+0.0.0.0 ad.ca.doubleclick.net
+0.0.0.0 ad.ch.doubleclick.net
+0.0.0.0 ad.cl.doubleclick.net
+0.0.0.0 ad.cn.doubleclick.net
+0.0.0.0 ad.de.doubleclick.net
+0.0.0.0 ad.dk.doubleclick.net
+0.0.0.0 ad.es.doubleclick.net
+0.0.0.0 ad.fi.doubleclick.net
+0.0.0.0 ad.fr.doubleclick.net
+0.0.0.0 ad.gr.doubleclick.net
+0.0.0.0 ad.hk.doubleclick.net
+0.0.0.0 ad.hr.doubleclick.net
+0.0.0.0 ad.hu.doubleclick.net
+0.0.0.0 ad.ie.doubleclick.net
+0.0.0.0 ad.in.doubleclick.net
+0.0.0.0 ad.jp.doubleclick.net
+0.0.0.0 ad.kr.doubleclick.net
+0.0.0.0 ad.it.doubleclick.net
+0.0.0.0 ad.nl.doubleclick.net
+0.0.0.0 ad.no.doubleclick.net
+0.0.0.0 ad.nz.doubleclick.net
+0.0.0.0 ad.pl.doubleclick.net
+0.0.0.0 ad.pt.doubleclick.net
+0.0.0.0 ad.ro.doubleclick.net
+0.0.0.0 ad.ru.doubleclick.net
+0.0.0.0 ad.se.doubleclick.net
+0.0.0.0 ad.sg.doubleclick.net
+0.0.0.0 ad.si.doubleclick.net
+0.0.0.0 ad.terra.doubleclick.net
+0.0.0.0 ad.th.doubleclick.net
+0.0.0.0 ad.tw.doubleclick.net
+0.0.0.0 ad.uk.doubleclick.net
+0.0.0.0 ad.us.doubleclick.net
+0.0.0.0 ad.za.doubleclick.net
+0.0.0.0 ad.n2434.doubleclick.net
+0.0.0.0 ad-emea.doubleclick.net
+0.0.0.0 creatives.doubleclick.net
+0.0.0.0 dfp.doubleclick.net
+0.0.0.0 feedads.g.doubleclick.net
+0.0.0.0 fls.doubleclick.net
+0.0.0.0 fls.uk.doubleclick.net
+0.0.0.0 googleads.g.doubleclick.net
+0.0.0.0 ir.doubleclick.net
+0.0.0.0 iv.doubleclick.net
+0.0.0.0 m.doubleclick.net
+0.0.0.0 motifcdn.doubleclick.net
+0.0.0.0 motifcdn2.doubleclick.net
+0.0.0.0 n4052ad.doubleclick.net
+0.0.0.0 n4403ad.doubleclick.net
+0.0.0.0 n479ad.doubleclick.net
+0.0.0.0 paypalssl.doubleclick.net
+0.0.0.0 pubads.g.doubleclick.net
+0.0.0.0 s2.video.doubleclick.net
+0.0.0.0 survey.g.doubleclick.net
+0.0.0.0 anon.doubleclick.speedera.net #not sure if this is an actual DC server or not, but here it is
+0.0.0.0 doubleclick.ne.jp
+0.0.0.0 www3.doubleclick.net
+0.0.0.0 www.doubleclick.net
+0.0.0.0 doubleclick.com
+0.0.0.0 www2.doubleclick.com
+0.0.0.0 www3.doubleclick.com
+0.0.0.0 www.doubleclick.com
+0.0.0.0 tpc.googlesyndication.com
+0.0.0.0 ad.rs.doubleclick.net
+0.0.0.0 affiliate.2mdn.net
+0.0.0.0 clickserve.us2.dartsearch.net
+0.0.0.0 ad-apac.doubleclick.net
+0.0.0.0 ad.mo.doubleclick.net
+0.0.0.0 adclick.g.doubleclick.net
+0.0.0.0 gan.doubleclick.net
+0.0.0.0 googleads2.g.doubleclick.net
+0.0.0.0 n4061ad.hk.doubleclick.net
+0.0.0.0 securepubads.g.doubleclick.net
+0.0.0.0 ad.bg.doubleclick.net
+0.0.0.0 cm.g.doubleclick.net
+0.0.0.0 stats.g.doubleclick.net
+0.0.0.0 fls.au.doubleclick.net
+0.0.0.0 log2.quintelligence.com
+0.0.0.0 www.destinationurl.com
+0.0.0.0 doubleclick.shockwave.com
+0.0.0.0 www3.webhostingtalk.com
+0.0.0.0 ad.mirror.co.uk
+0.0.0.0 host3.adhese.be
+0.0.0.0 mcmads.mediacapital.pt
+
+
+### Crowdstrike
+0.0.0.0 falcom.crowdstrike.com
+0.0.0.0 crowdstrike.com
+0.0.0.0 clowdsink.net
+0.0.0.0 ts01-b.cloudsink.net
+0.0.0.0 lfodown01-b.cloudsink.net
+0.0.0.0 ts01-gyr-maverick.cloudsink.net
+
+
+### Apple
+0.0.0.0 ocsp.apple.com
+0.0.0.0 ocsp2.apple.com
+0.0.0.0 guzzoni.apple.com
+0.0.0.0 gsa.apple.com
+0.0.0.0 itunes.apple.com
+0.0.0.0 icloud.com
+0.0.0.0 gdmf.apple.com
+0.0.0.0 pancake.apple.com
+0.0.0.0 swallow.apple.com
+
+
+# Added by Docker Desktop
+# To allow the same kube context to work on the host and the container:
+127.0.0.1 kubernetes.docker.internal
+127.0.0.1 host.docker.internal
+127.0.0.1 gateway.docker.internal
+
+# re-run autohosts after modifying this file, so your changes are immediately picked up.  otherwise, they'll 
+# be loaded after next cron update:
+#
+# sudo autohosts

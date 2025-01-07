@@ -1,0 +1,36 @@
+[gc]
+	autoDetach = false
+[core]
+	autocrlf = input
+	quotepath = false
+	longpaths = true
+	trustctime = false
+	precomposeunicode = false
+	untrackedCache = true
+	excludesFile = ~/.gitignore
+  attributesfile = ~/.gitattributes
+[rerere]
+	enabled = true
+[alias]
+	assume-unchanged = update-index --assume-unchanged
+	create-patch = format-patch -1
+	update-stable = tag -f stable
+	fixup = commit --fixup
+	tree = log --graph --abbrev-commit --decorate --format=format:'%C(bold blue)%h%C(reset) - %C(bold green)(%ar)%C(reset) %C(white)%s%C(reset) %C(dim white)- %an%C(reset)%C(bold yellow)%d%C(reset)' --all
+	treex = log --graph --abbrev-commit --decorate --format=format:'%C(bold blue)%h%C(reset) - %C(bold cyan)%aD%C(reset) %C(bold green)(%ar)%C(reset)%C(bold yellow)%d%C(reset)%n''          %C(white)%s%C(reset) %C(dim white)- %an%C(reset)' --all
+[color]
+	ui = auto
+[pull]
+	rebase = false
+[gui]
+	pruneduringfetch = true
+[smartgit "submodule"]
+	fetchalways = false
+	update = true
+	initializenew = true
+[push]
+	recurseSubmodules = check
+[fetch]
+	writeCommitGraph = true
+[apply]
+	whitespace = fix
