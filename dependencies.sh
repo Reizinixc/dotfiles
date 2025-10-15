@@ -92,6 +92,7 @@ unset ZSH_PLUGINS
 brew install docker
 brew install docker-buildx
 brew install docker-compose
+brew install docker-credential-helper
 
 # Install Colima
 brew install colima
@@ -111,7 +112,12 @@ brew install kubectx
 brew install derailed/k9s/k9s
 
 # Kubectl neat
+curl -Lso- https://github.com/itaysk/kubectl-neat/releases/download/v2.0.4/kubectl-neat_darwin_arm64.tar.gz | tar -xvf - kubectl-neat
+mv -f kubectl-neat "$HOME"
 
+# Kubectl neat diff
+curl -Lso- https://github.com/sh0rez/kubectl-neat-diff/releases/download/v0.2.0/kubectl-neat-diff-darwin-arm64 | tar -xvf - kubectl-neat-diff-darwin-arm64
+mv -f kubectl-neat-diff-darwin-arm64 "$HOME"/kubectl-neat-diff
 
 ###############################################################################
 # Web development                                                             #
@@ -230,3 +236,20 @@ brew install --cask utm
 
 # Communication tools
 brew install --cask viber
+
+# sshpass
+brew install sshpass
+
+# For tutorial/troubleshooting video
+brew install --cask keycastr
+
+###############################################################################
+# Web development                                                             #
+###############################################################################
+
+# https://github.com/sindresorhus/quick-look-plugins
+brew install --cask qlcolorcode qlstephen qlmarkdown quicklook-json qlimagesize webpquicklook quicklookase qlvideo
+
+# Configure qlcolorcode
+# https://github.com/anthonygelibert/QLColorCode
+defaults write org.n8gray.QLColorCode font Monaco

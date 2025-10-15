@@ -1,6 +1,12 @@
 # Path to your zsh root folder.
 export ZSH=$HOME/.zsh
 
+# Enable UTF-8 support
+# /usr/bin/locale -a
+export LC_ALL=en_GB.UTF-8
+export LANG=en_GB.UTF-8
+
+
 # Path to the history file.
 export HISTFILE=~/.zsh_history
 
@@ -45,3 +51,17 @@ source <(helm completion zsh)
 
 # Autocompletion for colima.
 source <(colima completion zsh)
+
+
+# Colors for ls
+export CLICOLOR=1
+export LSCOLORS=ExFxCxDxBxegedabagacad
+
+
+# Alias
+alias ls='ls -G'
+alias ll='ls -l --color=auto'
+alias tte='open -tf'
+alias whitespace="sed 's/ /·/g;s/\t/￫/g;s/\r/§/g;s/$/¶/g'"
+
+export LESS='--quit-if-one-screen --ignore-case --status-column --LONG-PROMPT --RAW-CONTROL-CHARS --HILITE-UNREAD --tabs=4 --no-init --window=-4'
